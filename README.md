@@ -26,26 +26,23 @@ Para um CEP inválido, chamo uma função mostrando um erro no console do navega
 <a href="https://imgur.com/ZzuRbyd"><img src="https://i.imgur.com/ZzuRbyd.png" title="source: imgur.com" /></a>
 
 Parte do código utilizado
-
-`  var getAdress = function(cep){
-        $.ajax({
-            url: `https://viacep.com.br/ws/${cep}/json/`,
-            dataType: "json",
-            error: getAdressError,
-            success: getAdressSuccess
-        });
-    }
-
-    var getAdressError = function(){
-        console.error(err);
-    }
-
-    var getAdressSuccess = function(endereco){
-        console.log(endereco);
-        $("#logradouro").val(endereco.logradouro);
-        $("#bairro").val(endereco.bairro);
-        $("#cidade").val(endereco.localidade);
-        $("#estado").val(endereco.uf);
-
-    }
-`
+```javascript
+      var getAdress = function(cep){
+            $.ajax({
+                url: `https://viacep.com.br/ws/${cep}/json/`,
+                dataType: "json",
+                error: getAdressError,
+                success: getAdressSuccess
+            });
+        }
+        var getAdressError = function(){
+            console.error(err);
+        }
+        var getAdressSuccess = function(endereco){
+            console.log(endereco);
+            $("#logradouro").val(endereco.logradouro);
+            $("#bairro").val(endereco.bairro);
+            $("#cidade").val(endereco.localidade);
+            $("#estado").val(endereco.uf);
+        }
+```
