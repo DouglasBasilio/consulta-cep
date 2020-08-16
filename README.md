@@ -27,7 +27,7 @@ Para um CEP inválido, chamo uma função mostrando um erro no console do navega
 
 Parte do código utilizado
 
-    var getAdress = function(cep){
+`  var getAdress = function(cep){
         $.ajax({
             url: `https://viacep.com.br/ws/${cep}/json/`,
             dataType: "json",
@@ -48,3 +48,4 @@ Parte do código utilizado
         $("#estado").val(endereco.uf);
 
     }
+`
