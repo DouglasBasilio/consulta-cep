@@ -1,4 +1,4 @@
-### Consulta de CEPConsulta de CEP
+### Consulta de CEP
 
 Utilizando linguagem Javascript e a biblioteca jQuery, montei uma página para consulta de CEP.
 
