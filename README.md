@@ -17,7 +17,7 @@ Neste caso, o único campo que podemos preencher é o de CEP. Ao digitar um CEP 
 
 <a href="https://imgur.com/jerrkOl"><img src="https://i.imgur.com/jerrkOl.png" title="source: imgur.com" /></a>
 
-Caso deixe o campo CEP em branco, o CSS entra em ação e mostra deixa o campo em vermelho.
+Caso deixe o campo CEP em branco, o CSS entra em ação e deixa o campo em vermelho.
 
 <a href="https://imgur.com/Fn86bGp"><img src="https://i.imgur.com/Fn86bGp.png" title="source: imgur.com" /></a>
 
